@@ -1,3 +1,10 @@
+✅ Inicia duas operações (DB e HTTP) em paralelo.
+✅ Se alguma delas demorar mais de 500ms, cancela tudo.
+✅ Se o usuário apertar CTRL+C, cancela com segurança.
+✅ Espera as duas operações terminarem para finalizar.
+✅ Protege variáveis compartilhadas contra condição de corrida.
+
+
 ```
 [Início main()]
       |
